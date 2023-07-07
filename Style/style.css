@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-color: #ffff;
+    font-family: "Poppins", sans-serif;
+}
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: #5955b3 ;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+}
+a:active{
+    text-decoration: 2px solid underline #000;
+    font-weight: 900;
+}
+button:active{
+    background-color: rgb(175, 240, 102);
+    color: #5955b3;
+    font-weight: 900;
+}
+li{
+    list-style: none;
+}
+header button{
+    margin-right: 100px;
+    padding: 10px 25px;
+}
+li img{
+    height: 50px;
+}
+/* main */
+main{
+    display: flex;
+}
+/* left of main */
+div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+div h1{
+    font-size: 60px;
+    color: #3c2f60;;
+    line-height: 65px;
+    font-weight: 600;
+}
+span{
+    color: #5955b3;
+}
+p{
+    color: #828282;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+div button{
+    margin-top: 65px;
+    width: 160px;
+    padding: 12px 25px;
+}
+main img{
+    height: 557px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
